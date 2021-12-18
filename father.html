@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aishah's father</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="design.css" />
+<link rel="stylesheet" type="text/css" href="image.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+<h1 class="glow" style="font-family:Brush Script MT">ABOUT AISHAH ADILFITRI</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="father.html">Father</a>
+      <a href="mother.html">Mother</a>
+      <a href="siblings.html">Siblings</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="family.html">Family</a>
+      <a href="friends.html">Friends</a>
+      <a href="cousin.html">Cousin</a>
+    </div>
+    </div>
+    <a href="favourite.html">Favourite</a>
+</div>
+
+<h2 align="center" style="font-family:'Papyrus';background-color:purple;color:white;font-size:40px">
+  Aishah's Father</h2>
+
+<style>
+body {
+  background-image: url("sky1.jpg");
+}
+</style>
+
+<style>
+img {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+padding: 20px;
+  float: left;
+  width: 60%;
+}
+
+/* Right column */
+.rightcolumn {
+padding: 20px;
+  float: left;
+  width: 40%;
+}
+
+/* Add a card effect for articles */
+.card {
+   padding: 20px;
+     margin-top: 0px;
+   background-color: #D8BFD8;
+    margin-right: 0;
+    border: 2px solid black;
+    
+}
+div.polaroid {
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  
+}
+
+div.container {
+  padding: 10px;
+
+}
+ul {
+  text-align: center;
+  list-style-position: outside;
+}
+</style>
+<br>
+<div class="leftcolumn">
+     <div class="card">
+     <center>
+    <div class="polaroid">
+     <img src="abah.jpg">
+     <div class="container">
+      <p>MY FATHER</p>
+      </div>
+      </div>
+      <br>
+      <div id="ul">
+      <li type="square">Name: Muhamad Adilfitri Bin Suleiman</li>
+      <li type="square">Age: 44 Years Old</li>
+      <li type="square">Birth Date: 15 September 1977</li>
+      <li type="square">Place of Birth: Bagan Serai, Perak</li>
+      <li type="square">Job Name: Medical</li>
+      <li type="square">Hobby: Bowling, Football, Watch Indonesia short drama</li>
+      <li type="square">Favourite food: White tomyum, Fried chicken, Chicken burger </li>
+      <li type="square">Favourite drink: Coffee, Ice capuccino, Ice tea</li>
+</center>
+</div>
+</div>
+</div>
+
+
+<div class="rightcolumn">
+    <div class="card" style="height:530px">
+<h2><center><p class="mix"><span> Photo of Aishah's Father </p></h2></center></span>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="abah2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="abah3.jpg" style="width:70%">
+</div>
+
+<div class="mySlides fade">
+  <img src="abah4.jpg" style="width:70%">
+</div>
+
+<div class="mySlides fade">
+  <img src="abah5.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div class="footer">
+  <h2>COPYRIGHT @ 2021 SITI AISHAH BINTI MUHAMAD ADILFITRI</h2>
+   <h3>Any inquiries:</h3>
+   <div class="icon-bar">
+  <a href="https://www.facebook.com/shah.aidilfitri.1/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/aishahfitri26" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/s.a.a.f.26/" class="instagram"><i class="fa fa-instagram"></i></a> 
+</div>
+</div>
+
+</body>
+</html>

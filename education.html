@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aishah's education</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="design.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+<h1 class="glow" style="font-family:Brush Script MT">ABOUT AISHAH ADILFITRI</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="father.html">Father</a>
+      <a href="mother.html">Mother</a>
+      <a href="siblings.html">Siblings</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="family.html">Family</a>
+      <a href="friends.html">Friends</a>
+      <a href="cousin.html">Cousin</a>
+    </div>
+    </div>
+    <a href="favourite.html">Favourite</a>
+</div>
+
+<style>
+body {
+  background-image: url("sky1.jpg");
+}
+</style>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height:800px; /*adjust box*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+h2,h3 {
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center" style="font-family:'Papyrus';background-color:purple;color:white;font-size:40px">
+Aishah's Education</h2>
+
+<div class="row">
+  <div class="column" style="background-color:orchid;">
+    <h2>Kindergarden</h2>
+    <br>
+    <br>
+    <br>
+    <center><img src="tadika.jpg"  height="100%" width="100%"></center>
+    <br>
+    <br>
+    <h3>Tadika Epal</h3>
+     <h4>Year: 2006-2007</h4>
+    <p align="justify">I went to kindergarten when I was 5-6 years old. The school was close to my house and I went to school on walking with my mother.</p>
+    <br>
+    <br>
+    <u><h3> Photo of Aishah's kindergarden </h3></u>
+    <img src="education.jpg" width="100%">
+  </div>
+
+  <div class="column" style="background-color:thistle;">
+    <h2>Primary School</h2>
+    <center><img src="skpilogo.png"  height="50%" width="50%"></center>
+    <h3>Sekolah Kebangsaan Permai Indah</h3>
+   <h4>Year: 2008-2013</h4>
+    <p align="justify">I attended the school from the age of 7-12 years old. I went to school by van with my first young brother, Iman. 
+    Also, I got 5A in UPSR results.</p>
+     <br>
+    <br>
+    <br>
+    <u><h3> Photo of Aishah's primary school </h3></u>
+    <img src="education2.jpg" width="100%">
+  </div>
+
+  <div class="column" style="background-color:orchid;">
+    <h2>Secondary school</h2>
+    <center><a href="https://www.facebook.com/datukonnbw/" target="_blank"><img src="logodob.png"  height="40%" width="40%"><a/></center>
+    <h3>Sekolah Menengah Kebangsaan Datuk Onn Butterworth</h3>
+      <h4>Year: 2014-2018</h4>
+    <p align="justify">I attended the school from the age of 13-17 years old. I used to live in a hostel and I came home after 2 weeks. On weekends, my family would visit me at the hostel and bring items such as food, 
+       stationery and so on.</p>
+    <br>
+   <u><h3> Photo of Aishah's secondary school </h3></u>
+    <img src="education4.jpg" width="100%">
+  </div>
+
+  <div class="column" style="background-color:thistle;">
+    <h2>Continues Studies</h2>
+    <br>
+    <center><a href="https://kedah.uitm.edu.my/" target="_blank"><img src="logouitm.png"  height="85%" width="85%"></a></center>
+    <h3>Universiti Teknologi Mara (UiTM) Cawangan Sungai Petani</h3>
+    <h4>Year: 2019-2022</h4>
+   <p align="justify">I went to register myself at the university in 2019 for a diploma in information management. I used to live in Masria hostel for 2 semesters and I walked with my friends to class from the hostel. After that, I conducted online learning due to the COVID-19 pandemic until now. 
+     After that, I will finish my diploma studies in 2022.</p>
+   <u><h3> Photo of Aishah's continues studies </h3></u>
+    <img src="education5.jpg" width="100%">
+  </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div class="footer">
+  <h2>COPYRIGHT @ 2021 SITI AISHAH BINTI MUHAMAD ADILFITRI</h2>
+   <h3>Any inquiries:</h3>
+   <div class="icon-bar">
+  <a href="https://www.facebook.com/shah.aidilfitri.1/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/aishahfitri26" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/s.a.a.f.26/" class="instagram"><i class="fa fa-instagram"></i></a> 
+</div>
+</div>
+
+</body>
+</html>
